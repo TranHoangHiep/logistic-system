@@ -1,0 +1,21 @@
+Logistic
+
+- Hàng hoá
+- Người vận chuyển
+- Người gom hàng
+- Người thủ kho
+- Customer
+- Hub
+
+- Customer
+	+ Là người có nhu cầu giao hàng hoá đến 1 nơi cụ thể
+	+ Có thể tự tạo đơn hàng trên hệ thống
+	+ Có thể thanh toán bằng thẻ ngân hàng hoặc bằng tiền mặt
+- Người gom hàng
+	+ Là người đi lấy hàng từ phía customer và đưa đến Hub
+	+ Nhận thông báo có đơn hàng cần gom thông qua tin nhắn
+
+- Người vận chuyển
+	+ Pick hàng từ Hub
+	+ Xem các đơn hàng đã pick
+	+ Cập nhật thông tin hàng đang giao
